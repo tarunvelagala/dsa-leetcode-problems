@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0054-spiral-matrix) |
+| [0643-maximum-average-subarray-i](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0643-maximum-average-subarray-i) |
 ## Matrix
 |  |
 | ------- |
@@ -15,4 +16,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0054-spiral-matrix) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->

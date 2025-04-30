@@ -21,12 +21,22 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0643-maximum-average-subarray-i) |
+| [1987-substrings-of-size-three-with-distinct-characters](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
 ## Hash Table
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0560-subarray-sum-equals-k) |
+| [1987-substrings-of-size-three-with-distinct-characters](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0560-subarray-sum-equals-k) |
+## String
+|  |
+| ------- |
+| [1987-substrings-of-size-three-with-distinct-characters](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
+## Counting
+|  |
+| ------- |
+| [1987-substrings-of-size-three-with-distinct-characters](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
 <!---LeetCode Topics End-->

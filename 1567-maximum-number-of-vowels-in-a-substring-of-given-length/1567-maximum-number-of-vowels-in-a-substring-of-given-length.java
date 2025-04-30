@@ -10,31 +10,31 @@ class Solution {
             return 0;
         }
 
-        int maxVowelCount = 0;
-        int currVowelCount = 0;
+        int maxLength = 0;
+        int currLength = 0;
 
         // Initialize the sliding window of size k
         for (int i = 0; i < k; i++) {
             if (isVowel(s.charAt(i))) {
-                currVowelCount++;
+                currLength++;
             }
         }
-        maxVowelCount = currVowelCount;
+        maxLength = currLength;
 
         // For remaining n elements i.e k -> n
         // if s[i] is a vowel increment the count
         // if s[i-k] is vowel decrement the count
         for (int i = k; i < s.length(); i++) {
             if (isVowel(s.charAt(i))) {
-                currVowelCount++;
+                currLength++;
             }
             if (isVowel(s.charAt(i - k))) {
-                currVowelCount--;
+                currLength--;
             }
 
-            // Calculate the maxVowelCount
-            maxVowelCount = Math.max(maxVowelCount, currVowelCount);
+            // Calculate the maxLength
+            maxLength = Math.max(maxLength, currLength);
         }
-        return maxVowelCount;
+        return maxLength;
     }
 }

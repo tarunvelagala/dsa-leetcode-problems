@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0054-spiral-matrix) |
 | [0075-sort-colors](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0075-sort-colors) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0560-subarray-sum-equals-k](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0643-maximum-average-subarray-i) |
 ## Matrix
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0053-maximum-subarray) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Two Pointers
 |  |
 | ------- |

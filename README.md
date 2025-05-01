@@ -43,4 +43,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->

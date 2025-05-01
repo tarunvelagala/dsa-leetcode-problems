@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0001-two-sum) |
 | [0054-spiral-matrix](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0054-spiral-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0643-maximum-average-subarray-i) |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0001-two-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0560-subarray-sum-equals-k) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
 ## Prefix Sum

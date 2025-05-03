@@ -1,7 +1,7 @@
 class Solution {
 
     public int numOfSubarrays(int[] arr, int k, int threshold) {
-        if (arr.length < 1 || k < 1 || threshold < 1) return arr[0];
+        if (arr.length < 1) return arr[0];
 
         int currentAverage = 0;
         int subArrayCount = 0;
@@ -19,7 +19,7 @@ class Solution {
             subArraySum -= arr[i - k];
             subArraySum += arr[i];
 
-            if (subArraySum / k >= threshold) {
+            if (subArraySum >= threshold*k) {
                 subArrayCount++;
             }
         }
@@ -27,7 +27,7 @@ class Solution {
     }
 
     public int numOfSubarraysBruteForce(int[] arr, int k, int threshold) {
-        if (arr.length < 1 || k < 1 || threshold < 1) return arr[0];
+        if (arr.length < 1) return arr[0];
 
         int currentAverage = 0;
         int subArrayCount = 0;
@@ -38,7 +38,7 @@ class Solution {
             for (int j = 0; j < k; j++) {
                 subArraySum += arr[i + j];
             }
-            if (subArraySum / k >= threshold) {
+            if (subArraySum >= threshold*k) {
                 subArrayCount++;
             }
         }

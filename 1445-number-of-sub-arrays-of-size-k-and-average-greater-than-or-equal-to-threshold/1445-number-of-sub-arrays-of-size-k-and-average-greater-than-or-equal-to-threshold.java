@@ -1,5 +1,6 @@
 class Solution {
 
+    // Fixed Size Sliding Window
     public int numOfSubarrays(int[] arr, int k, int threshold) {
         if (arr.length < 1) return arr[0];
 
@@ -11,7 +12,7 @@ class Solution {
             subArraySum += arr[i];
         }
 
-        if (subArraySum / k >= threshold) {
+        if (subArraySum >= threshold * k) {
             subArrayCount++;
         }
 
@@ -19,13 +20,14 @@ class Solution {
             subArraySum -= arr[i - k];
             subArraySum += arr[i];
 
-            if (subArraySum >= threshold*k) {
+            if (subArraySum >= threshold * k) {
                 subArrayCount++;
             }
         }
         return subArrayCount;
     }
 
+    // BruteForce
     public int numOfSubarraysBruteForce(int[] arr, int k, int threshold) {
         if (arr.length < 1) return arr[0];
 
@@ -38,7 +40,7 @@ class Solution {
             for (int j = 0; j < k; j++) {
                 subArraySum += arr[i + j];
             }
-            if (subArraySum >= threshold*k) {
+            if (subArraySum >= threshold * k) {
                 subArrayCount++;
             }
         }

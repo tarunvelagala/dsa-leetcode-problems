@@ -1,7 +1,7 @@
 class Solution {
 
-    // BruteForce
-    public int countGoodSubstringsBruteForce(String s) {
+    // Optimal 2
+    public int countGoodSubstrings(String s) {
         if (s.length() < 3) {
             return 0;
         }
@@ -16,7 +16,7 @@ class Solution {
         return count;
     }
 
-    public int countGoodSubstrings(String s) {
+    public int countGoodSubstrings2(String s) {
         if (s.length() < 3) { //  if the input string is less than 3, return 0
             return 0;
         }

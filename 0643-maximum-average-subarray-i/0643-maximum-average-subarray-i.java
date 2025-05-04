@@ -1,4 +1,21 @@
 class Solution {
+
+    public double findMaxAverageBruteForce(int[] nums, int k) {
+        if(nums.length == 1 && k == 1) {
+            return (double) nums[0];
+        }
+
+        double maxAverage = Integer.MIN_VALUE;
+        for(int i = 0;i<nums.length-k+1;i++) {
+            double currSum = 0;
+            for(int j = 0;j < k;j++) {
+                currSum += (double) nums[i+j];
+            }
+            maxAverage = Math.max(maxAverage, currSum/k);
+        }
+        return maxAverage;
+    }
+
     public double findMaxAverage(int[] nums, int k) {
 
         // Handle the base case where length = 1 and k = 1

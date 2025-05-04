@@ -1,5 +1,21 @@
 class Solution {
 
+    // BruteForce
+    public int countGoodSubstringsBruteForce(String s) {
+        if (s.length() < 3) {
+            return 0;
+        }
+
+        int count = 0;
+
+        for (int i = 0; i < s.length() - 3 + 1; i++) {
+            if (s.charAt(i + 1) != s.charAt(i) && s.charAt(i + 2) != s.charAt(i) && s.charAt(i + 2) != s.charAt(i + 1)) {
+                count++;
+            }
+        }
+        return count;
+    }
+
     public int countGoodSubstrings(String s) {
         if (s.length() < 3) { //  if the input string is less than 3, return 0
             return 0;

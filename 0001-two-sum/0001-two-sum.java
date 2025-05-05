@@ -3,9 +3,8 @@ class Solution {
     // Generate all the arrays of i, j -> i, i+1
     // Uses a HashMap to store the elements and its index
     public int[] twoSumBetter(int[] nums, int target) {
-        int n = nums.length;
         HashMap<Integer, Integer> indexMap = new HashMap<>();
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < nums.length; i++) {
             int num = nums[i];
             int complement = target - num;
             if (indexMap.containsKey(complement)) {

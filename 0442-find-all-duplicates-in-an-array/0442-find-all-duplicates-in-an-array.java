@@ -1,5 +1,6 @@
 class Solution {
 
+    // TODO: Update the solution with O(1) time complexity.
     public List<Integer> findDuplicates(int[] nums) {
         HashMap<Integer, Integer> numberFrequency = new HashMap<>();
         List<Integer> res = new ArrayList<>();

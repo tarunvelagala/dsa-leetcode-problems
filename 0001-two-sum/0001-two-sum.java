@@ -9,11 +9,11 @@ class Solution {
             int num = nums[i];
             int complement = target - num;
             if (indexMap.containsKey(complement)) {
-                return new int[] { indexMap.get(complement), i };
+                return new int[] { i, indexMap.get(complement) };
             }
             indexMap.put(nums[i], i);
         }
-        return new int[] { -1, -1 };
+        return new int[] {};
     }
 
     public int[] twoSum(int[] nums, int target) {

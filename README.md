@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0344-reverse-string](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0344-reverse-string) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
 ## Counting
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0075-sort-colors) |
+| [0344-reverse-string](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0344-reverse-string) |
 ## Sorting
 |  |
 | ------- |

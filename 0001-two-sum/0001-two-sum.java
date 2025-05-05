@@ -4,21 +4,16 @@ class Solution {
     // Uses a HashMap to store the elements and its index
     public int[] twoSumBetter(int[] nums, int target) {
         int n = nums.length;
-        int[] ans = new int[2];
-        ans[0] = -1;
-        ans[1] = -1;
         HashMap<Integer, Integer> indexMap = new HashMap<>();
         for (int i = 0; i < n; i++) {
             int num = nums[i];
             int complement = target - num;
             if (indexMap.containsKey(complement)) {
-                ans[0] = indexMap.get(complement);
-                ans[1] = i;
-                return ans;
+                return new int[] { indexMap.get(complement), i };
             }
             indexMap.put(nums[i], i);
         }
-        return ans;
+        return new int[] { -1, -1 };
     }
 
     public int[] twoSum(int[] nums, int target) {

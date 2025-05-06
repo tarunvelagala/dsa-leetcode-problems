@@ -39,20 +39,29 @@ class Solution {
         Arrays.sort(nums); // [-1, -1, 0, 1, 2, 4]
         List<List<Integer>> result = new ArrayList<>();
         for (int i = 0; i < nums.length; i++) {
+            // If the duplicate element is present then we continue
             if (i != 0 && nums[i - 1] == nums[i]) continue;
+            // Initialize j pointer = i + 1 (a head of i always)
             int j = i + 1;
+            // Initialize k pointer -> n (at the last)
             int k = nums.length - 1;
+
             while (j < k) {
                 int s = nums[i] + nums[j] + nums[k];
+                // Check if the sum < zero, increment the j pointer to reach middle (0 is present after sorting)
                 if (s < 0) {
                     j++;
+                    // Check if the sum > zero, decrement the k pointer to reach middle (0 is present after sorting)
                 } else if (s > 0) {
                     k--;
+                    // If we found a pair add them to the list and incr/decr pointers.
                 } else {
                     List<Integer> triplets = Arrays.asList(nums[i], nums[j], nums[k]);
                     result.add(triplets);
                     j++;
                     k--;
+                    // IMP -> We would check if the adjacent pairs of j are equivalent
+                    // it means that its redundant summing. Rather than that we could skip it.
                     while (j < k && nums[j] == nums[j - 1]) j++;
                     while (j < k && nums[k] == nums[k + 1]) k--;
                 }

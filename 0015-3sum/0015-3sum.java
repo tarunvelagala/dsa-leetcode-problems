@@ -1,67 +1,42 @@
-import java.util.*;
-
 class Solution {
 
-    public List<List<Integer>> threeSumOptimal(int[] nums) {
-        final List<List<Integer>> result = new ArrayList<>();
-        Arrays.sort(nums);
-        for(int i =0;i<nums.length;i++) {
-            if(i != 0 && nums[i-1] == nums[i]) continue;
-            int j = i+1;
-            int k = nums.length - 1;
-            while(j < k) {
-                int s = nums[i] + nums[j] + nums[k];
-                if(s<0) {
-                    j++;
-                } else if(s > 0) {
-                    k--;
-                } else {
-                    List<Integer> triplet = Arrays.asList(nums[i], nums[j], nums[k]);
-                    result.add(triplet);
-                    j++;
-                    k--;
-                    while(j < k && nums[j] == nums[j - 1]) j++;
-                    while(j < k && nums[k] == nums[k+1]) k--;
-                }
-            }
-        }
-        return result;
-    }
-
-    public List<List<Integer>> threeSumBetter(int[] nums) {
-        final Set<List<Integer>> result = new HashSet<>();
-        for(int i = 0;i<nums.length;i++) {
-            Set<Integer> subArrayElementsMap = new HashSet();
-            for(int j = i+1;j<nums.length;j++) {
-                int complement = -(nums[i] + nums[j]);
-                if(subArrayElementsMap.contains(complement)) {
-                    List<Integer> triplet = Arrays.asList(nums[i], nums[j], complement);
-                    triplet.sort(null);
-                    result.add(triplet);
-                }
-                subArrayElementsMap.add(nums[j]);
-            }
-        }
-        return List.copyOf(result);
-    }
-
-    public List<List<Integer>> threeSumBF(int[] nums) {
-        final Set<List<Integer>> result = new HashSet<>();
-        for(int i =0;i<nums.length;i++) {
-            for(int j = i+1;i<nums.length;j++) {
-                for(int k = j+1;k<nums.length;k++) {
-                    if(nums[i] + nums[j] + nums[k] == 0 && nums[i] != nums[j] && nums[j] != nums[k] && nums[i] != nums[k]) {
-                        List<Integer> triplet = Arrays.asList(nums[i], nums[j], nums[k]);
-                        triplet.sort(null);
-                        result.add(triplet);
+    public List<List<Integer>> threeSumO(int[] nums) {
+        // Generate all sub arrays
+        // nums[i] != nums[j] && nums[i] != nums[k] && nums[j] != nums[k] &&
+        // nums[i] + nums[j] + nums[k] = 0
+        List<List<Integer>> res = new ArrayList<>();
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                for (int k = j + 1; k < nums.length; k++) {
+                    if (nums[i] + nums[j] + nums[k] == 0 && nums[i] != nums[j] && nums[j] != nums[k]
+                            && nums[k] != nums[i]) {
+                        List<Integer> triplets = List.of(nums[i], nums[j], nums[k]);
+                        res.add(triplets);
                     }
-                } 
+                }
             }
         }
-        return List.copyOf(result);
+        return res;
     }
 
     public List<List<Integer>> threeSum(int[] nums) {
-        return threeSumOptimal(nums);
+        final Set<List<Integer>> result = new HashSet<>();
+        for (int i = 0; i < nums.length; i++) {
+            Set<Integer> numberIndexSet = new HashSet<>();
+            for (int j = i + 1; j < nums.length; j++) {
+                int complement = -(nums[i] + nums[j]);
+                if (numberIndexSet.contains(complement)) {
+                    List<Integer> triplets = Arrays.asList(nums[i], nums[j], complement);
+                    triplets.sort(null);
+                    result.add(triplets);
+                }
+                numberIndexSet.add(nums[j]);
+            }
+        }
+        return List.copyOf(result);
     }
+
+    // public List<List<Integer>> threeSum(int[] nums) {
+
+    // }
 }

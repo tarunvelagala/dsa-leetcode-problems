@@ -60,7 +60,7 @@ class Solution {
                     result.add(triplets);
                     j++;
                     k--;
-                    // IMP -> We would check if the adjacent pairs of j are equivalent
+                    // IMP -> We would check if the adjacent pairs of j are equivalent. Likewise k.
                     // it means that its redundant summing. Rather than that we could skip it.
                     while (j < k && nums[j] == nums[j - 1]) j++;
                     while (j < k && nums[k] == nums[k + 1]) k--;

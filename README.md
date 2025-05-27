@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0238-product-of-array-except-self](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0238-product-of-array-except-self) |
+| [0347-top-k-frequent-elements](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0347-top-k-frequent-elements) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0643-maximum-average-subarray-i) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0001-two-sum) |
+| [0347-top-k-frequent-elements](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0347-top-k-frequent-elements) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0560-subarray-sum-equals-k) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
@@ -58,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0347-top-k-frequent-elements) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
 ## Math
 |  |
@@ -67,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0053-maximum-subarray) |
+| [0347-top-k-frequent-elements](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0347-top-k-frequent-elements) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -86,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0075-sort-colors) |
+| [0347-top-k-frequent-elements](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0347-top-k-frequent-elements) |
 ## Binary Search
 |  |
 | ------- |
@@ -110,4 +115,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0042-trapping-rain-water) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/tarunvelagala/dsa-leetcode-problems/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->

@@ -1,33 +1,22 @@
+import java.util.*;
+
 class Solution {
-
-    // Generate all the arrays of i, j -> i, i+1
-    // Uses a HashMap to store the elements and its index
-    public int[] twoSumBetter(int[] nums, int target) {
-        HashMap<Integer, Integer> indexMap = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
-            if (indexMap.containsKey(complement)) {
-                return new int[] { i, indexMap.get(complement) };
-            }
-            indexMap.put(nums[i], i);
-        }
-        return new int[] {};
-    }
-
     public int[] twoSum(int[] nums, int target) {
-        int n = nums.length;
-        int[] ans = new int[2];
-        ans[0] = ans[1] = -1;
-        for (int i = 0; i < n; i++) {
-            int num = nums[i];
-            for (int j = i + 1; j < n; j++) {
-                if (num + nums[j] == target) {
-                    ans[0] = i;
-                    ans[1] = j;
-                    return ans;
-                }
+        // I.O.C - 
+        // B.O.T - 
+        // S.A.Y - 
+        // C.O.D.E - 
+        // T.E.S.T - 
+
+        if(nums == null || nums.length == 0) return new int[]{-1, -1};
+        final Map<Integer, Integer> complementMap = new HashMap<Integer, Integer>();
+        for(int i = 0;i<nums.length;i++) {
+            int complement = target - nums[i];
+            if(complementMap.containsKey(complement)) {
+                return new int[]{i, complementMap.getOrDefault(complement, 0)};
             }
+            complementMap.put(nums[i], i);
         }
-        return ans;
+        return new int[]{-1, -1};
     }
 }
